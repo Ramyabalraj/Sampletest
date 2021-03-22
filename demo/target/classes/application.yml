@@ -1,0 +1,4 @@
+
+addon:
+  key: hello-world
+  base-url: https://e5964f7f5b5d.ngrok.io
