@@ -15,7 +15,7 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>1.8</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<atlassian-connect-spring-boot.version>2.1.1</atlassian-connect-spring-boot.version>
 	</properties>
