@@ -14,12 +14,12 @@
 "modules": {
     "generalPages": [
       {
-        "key": "helloworld-page-jira",
+        "key": "hello-page-jira",
         "location": "system.top.navigation.bar",
         "name": {
           "value": "Hello"
         },
-        "url": "/helloworld"
+        "url": "/hello"
       }
     ]
   }
