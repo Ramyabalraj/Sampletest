@@ -1,0 +1,27 @@
+{
+  "key": "hello",
+  "baseUrl": "https://samplejiraapp.herokuapp.com/",
+  "name": "hello",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  }
+  ,
+
+"modules": {
+    "generalPages": [
+      {
+        "key": "hello",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Hello"
+        },
+        "url": "/hello"
+      }
+    ]
+  }
+  }
+  

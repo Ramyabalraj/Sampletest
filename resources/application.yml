@@ -1,0 +1,6 @@
+
+addon:
+  key: hello
+  base-url: https://samplejiraapp.herokuapp.com/
+server:
+  port : 8080
