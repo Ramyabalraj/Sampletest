@@ -1,7 +1,7 @@
 {
-  "key": "demo",
+  "key": "hello",
   "baseUrl": "https://samplejiraapp.herokuapp.com/",
-  "name": "demo",
+  "name": "hello",
   "authentication": {
     "type": "jwt"
   },
@@ -14,7 +14,7 @@
 "modules": {
     "generalPages": [
       {
-        "key": "hello-page-jira",
+        "key": "hello",
         "location": "system.top.navigation.bar",
         "name": {
           "value": "Hello"
