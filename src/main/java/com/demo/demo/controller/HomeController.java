@@ -6,6 +6,10 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,9 +32,11 @@ public class HomeController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+		   LocalDateTime now = LocalDateTime.now();  
+		   System.out.println(dtf.format(now));  
 				System.out.println("********************************"+response.getBody()+"********************************************");
-	        return "True";
+	        return "Hello World!!!"+"  "+dtf.format(now);
 	        
 	    }
 }
